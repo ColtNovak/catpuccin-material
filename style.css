@@ -6,31 +6,38 @@
   --app-watermark-one: "Material";
   --app-watermark-two: "Discord";
   --app-title-bar-height: 22px;
-  --app-button-min: hsl(39,100%,63%);
-  --app-button-max: hsl(143,100%,40%);
-  --app-button-close: hsl(1,100%,68%);
-  --accent-hue: 224;
-  --accent-saturation: 71%;
-  --accent-lightness: 61%;
+  
+  --app-button-min: #f9e2af;   
+  --app-button-max: #a6e3a1;   
+  --app-button-close: #f38ba8; 
+  
+  --accent-hue: 267;            
+  --accent-saturation: 84%;
+  --accent-lightness: 80%;
   --accent-hsl: var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
-  --accent-text-color: hsl(0,0%,100%);
-  --alert-hue: 0;
-  --alert-saturation: 85%;
-  --alert-lightness: 61%;
+  --accent-text-color: #1e1e2e;  
+  
+  --alert-hue: 343;             
+  --alert-saturation: 82%;
+  --alert-lightness: 70%;
   --alert-hsl: var(--alert-hue), calc(var(--alert-saturation) * var(--saturation-factor)), var(--alert-lightness);
-  --alert-text-color: hsl(0,0%,100%);
-  --warning-hue: 44;
-  --warning-saturation: 71%;
-  --warning-lightness: 61%;
+  --alert-text-color: #1e1e2e; 
+  
+  --warning-hue: 41;        
+  --warning-saturation: 90%;
+  --warning-lightness: 75%;
   --warning-hsl: var(--warning-hue), calc(var(--warning-saturation) * var(--saturation-factor)), var(--warning-lightness);
-  --warning-text-color: hsl(0,0%,100%);
+  --warning-text-color: #1e1e2e;
+  
   --reply-hue: var(--warning-hue);
   --reply-saturation: var(--warning-saturation);
   --reply-lightness: var(--warning-lightness);
   --reply-hsl: var(--reply-hue), calc(var(--reply-saturation) * var(--saturation-factor)), var(--reply-lightness);
   --reply-opacity: 0.3;
   --reply-text-color: var(--warning-text-color);
-  --success-color: hsl(153,46%,49%);
+  
+  --success-color: #a6e3a1;     
+  
   --sidebar-panel-radius-big: var(--popout-radius-big);
   --sidebar-panel-radius-small: 4px;
   --message-radius: 18px;
@@ -42,6 +49,7 @@
   --media-radius: calc(var(--message-radius) / 1.75);
   --card-radius: 8px;
   --card-radius-big: 18px;
+  
   --button-height: 36px;
   --button-radius: calc(var(--button-height) / 2);
   --button-padding: 0 24px;
@@ -50,31 +58,39 @@
   --button-font-size: 14px;
   --button-link-accent-color: var(--accent-hsl--material-you);
   --button-link-accent-text-color: hsl(var(--accent-hsl--material-you));
-  --button-action-color: hsl(0,0%,100%);
+  --button-action-color: #cdd6f4;
   --button-action-hover: 0.06;
   --button-action-active: 0.12;
+  
   --input-height: var(--button-height);
   --input-radius: calc(var(--input-height) / 2);
   --input-padding: 0 12px;
+  
   --typing-color: hsl(from var(--chat-color) h s l / 0.9);
   --emoji-category-header: hsl(from var(--popout-color) h s l / 0.95);
+  
   --popout-radius: var(--card-radius);
   --popout-radius-big: var(--card-radius-big);
+  
   --avatar-radius: 24px;
   --channel-radius: 21px;
-  --spotify-color: hsl(141,73%,42%);
-  --stream-color: hsl(262,47%,40%);
-  --xbox-color: hsl(120,77%,27%);
-  --tooltip-color: hsl(0,0%,38%,0.9);
-  --tooltip-border-color: hsl(0,0%,51%);
-  --tooltip-text-color: hsl(0,0%,87%);
+  
+  --spotify-color: #a6e3a1;     
+  --stream-color: #cba6f7;       
+  --xbox-color: #a6e3a1;         
+  
+  --tooltip-color: hsl(229, 24%, 24%, 0.9); 
+  --tooltip-border-color: #585b70;        
+  --tooltip-text-color: #cdd6f4;           
   --tooltip-font-size: 12px;
   --tooltip-padding: 8px;
   --tooltip-radius: 8px;
   --tooltip-shadow: 0px 5px 15px hsl(0,0%,0%,0.2);
+  
   --shadow-1dp: 0 2px 2px 0 hsl(0,0%,0%,0.14), 0 3px 1px -2px hsl(0,0%,0%,0.2), 0 1px 5px 0 hsl(0,0%,0%,0.12);
   --shadow-2dp: 0 4px 5px 0 hsl(0,0%,0%,0.14), 0 1px 10px 0 hsl(0,0%,0%,0.12), 0 2px 4px -1px hsl(0,0%,0%,0.2);
   --shadow-3dp: 0 8px 10px 1px hsl(0,0%,0%,0.14), 0 3px 14px 2px hsl(0,0%,0%,0.12), 0 5px 5px -3px hsl(0,0%,0%,0.2);
+  
   --default-animation: cubic-bezier(0.4,0,0.2,1);
   --default-time: 250ms;
   --scrollbar-width: 10px;
