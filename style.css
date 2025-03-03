@@ -83,68 +83,78 @@
 }
 
 .theme-dark {
-  --app-button-active: hsl(0,0%,100%,0.1);
-  --app-button-inactive: hsl(0,0%,100%,0.05);
-  --main-color: hsl(225,8%,9%);
-  --main-alt: hsl(220,9%,6%);
+  --main-color: #1e1e2e;   
+  --main-alt: #181825;     
+  
+  --accent-hsl: 267, 81%, 80%;
+  --accent-text-color: #1e1e2e;
   --accent-hsl--material-you: var(--accent-hsl);
   --accent-text-color--material-you: var(--accent-text-color);
+
   --server-color: transparent;
-  --server-folder-color: hsl(0,0%,100%,0.085);
-  --status-picker-color: hsl(228,5%,18%);
-  --sidebar-panel-color: hsl(228,7%,14%);
+  --server-folder-color: rgba(49, 50, 68, 0.085); 
+
+  --status-picker-color: #45475a;       
+  --sidebar-panel-color: #181825;       
   --chat-color: var(--main-color);
-  --message-color: hsl(216,7%,14%);
-  --message-color-hover: hsl(216,7%,18%);
-  --message-color-alt: hsl(216,7%,13%);
-  --attachment-color: hsl(216,7%,9%);
-  --popout-color: hsl(214,7%,19%);
-  --popout-color-alt: hsl(216,7%,14%);
-  --popout-header-border: hsl(0,0%,100%,0.125);
-  --separator-color: hsl(0,0%,100%,0.125);
-  --header-secondary: hsl(0,0%,92%);
-  --profile-body-background-color: hsl(225,6%,14%);
-  --input-color: hsl(240,4%,16%);
-  --input-color-alt: hsl(240,2%,22%);
-  --input-border-color: hsl(0,0%,29%);
-  --input-text-color: hsl(0,0%,85%);
-  --input-placeholder-color: hsl(0,0%,59%);
-  --input-pill-color: hsl(0,0%,100%,0.125);
-  --tab-border-color: hsl(0,0%,100%);
-  --interactive-muted: hsl(0,0%,41%);
-  --text-disabled: hsl(0,0%,40%);
-  --menu-item-hover: hsl(0,0%,100%,0.075);
-  --menu-item-select: hsl(0,0%,100%,0.1);
+  --message-color: #313244;             
+  --message-color-hover: #45475a;       
+  --message-color-alt: #181825;         
+  --attachment-color: #11111b;          
+  --popout-color: #1e1e2e;               
+  --popout-color-alt: #181825;          
+  --popout-header-border: rgba(127, 132, 156, 0.125);
+  --separator-color: rgba(127, 132, 156, 0.125);     
+
+  --header-secondary: #bac2de;         
+  --profile-body-background-color: #181825; 
+  --input-color: #313244;               
+  --input-color-alt: #45475a;          
+  --input-border-color: #585b70;       
+  --input-text-color: #cdd6f4;          
+  --input-placeholder-color: #7f849c;   
+  --input-pill-color: rgba(49, 50, 68, 0.125); 
+
+  --tab-border-color: #cdd6f4;          
+  --interactive-muted: #585b70;         
+  --text-disabled: #7f849c;            
+
+  --menu-item-hover: rgba(49, 50, 68, 0.075);  
+  --menu-item-select: rgba(49, 50, 68, 0.1);  
   --menu-item-select-accent-opacity: 0.3;
-  --menu-item-text-color: hsl(0,0%,76%);
+  --menu-item-text-color: #a6adc8;      
   --card-color-outlined: transparent;
-  --card-color-filled: hsl(225,6%,13%);
-  --card-color-hover: hsl(225,6%,16%);
-  --card-color-active: hsl(225,6%,25%);
-  --card-color-alt: hsl(225,6%,18%);
-  --card-color-alt-hover: hsl(225,6%,21%);
-  --card-border-color: hsl(220,3%,26%);
-  --card-header-text-color: hsl(0,0%,93%);
-  --card-button-color: hsl(0,0%,100%,0.09);
-  --card-button-color-hover: hsl(0,0%,100%,0.135);
-  --activity-card-color: hsl(0,0%,100%,0.0475);
-  --activity-card-color--hover: hsl(0,0%,100%,0.06);
-  --activity-card-color--active: hsl(0,0%,100%,0.07);
-  --activity-card-color--inset: hsl(0,0%,100%,0.05);
-  --button-link-color: hsl(0,0%,100%);
-  --button-link-text-color: hsl(0,0%,100%);
-  --button-border-color: hsl(0,0%,27%);
-  --switch-knob-color: hsl(0,0%,47%);
-  --switch-knob-color-modal: hsl(0,0%,56%);
+  --card-color-filled: #181825;        
+  --card-color-hover: #1e1e2e;         
+  --card-color-active: #313244;        
+  --card-color-alt: #313244;            
+  --card-color-alt-hover: #45475a;     
+  --card-border-color: #45475a;        
+  --card-header-text-color: #cdd6f4;   
+  --card-button-color: rgba(49, 50, 68, 0.09); 
+  --card-button-color-hover: rgba(49, 50, 68, 0.135); 
+
+  --activity-card-color: rgba(49, 50, 68, 0.0475);
+  --activity-card-color--hover: rgba(49, 50, 68, 0.06);
+  --activity-card-color--active: rgba(49, 50, 68, 0.07);
+  --activity-card-color--inset: rgba(49, 50, 68, 0.05);
+
+  --button-link-color: #cdd6f4;        
+  --button-link-text-color: #cdd6f4;   
+  --button-border-color: #585b70;     
+
+  --switch-knob-color: #585b70;         
+  --switch-knob-color-modal: #585b70;   
   --switch-knob-checked: var(--accent-text-color);
-  --switch-slider-color: hsl(240,1%,20%);
-  --switch-slider-color-modal: var(--switch-slider-color);
-  --switch-slider-checked: hsl(var(--accent-hsl));
+  --switch-slider-color: #313244;       
+  --switch-slider-color-modal: #313244; 
+  --switch-slider-checked: #cba6f7;    
   --switch-color-modifier: 1.3;
-  --md-ripple-color: 0,100%,100%;
-  --scrollbar-color: 255,255,255;
-  --text-brand: hsl(var(--accent-hsl));
-  --text-link: hsl(var(--accent-hsl));
+
+  --md-ripple-color: 205, 214, 244;     
+  --scrollbar-color: 205, 214, 244;   
+  --text-brand: #cba6f7;                
+  --text-link: #cba6f7;               
 }
 
 .theme-light {
